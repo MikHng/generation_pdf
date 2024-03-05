@@ -26,6 +26,6 @@ Route::get('/etatflux', [Controller::class, 'afficheretatflux']);
 
 Route::get('/fonds', [Controller::class, 'affichefonds']);
 
-Route::get('/notesbilan', [Controller::class, 'Notes_Bilan']);
+Route::get('/notesbilan', [Controller::class, 'affichenotebilan']);
 
-Route::get('/noteseaf', [Controller::class, 'Notes_EAF']);
+Route::get('/noteseaf', [Controller::class, 'afficheeaf']);
