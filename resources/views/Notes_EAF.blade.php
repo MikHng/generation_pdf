@@ -11,47 +11,315 @@
 <body>
 
 <div class="container">
-  <h2>Contextual Classes</h2>
-  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
-  <table class="table">
+  <center>
+    <h4><u>SOS Villages d'enfants BENIN</u></h4>
+    <h4><u>Notes à l'Etat des Activités Financières de l'exercice clos au 31 Décembre 2021 </u></h4>
+    <br><br>
+    <h5>Note 1 : Recettes des APS pour Dépenses de Fonctionnement (RC)</h5>
+ </center>
+  <table class="table table-bordered" >
     <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+      <tr class="success">
+        <td></td>
+        <th>Eec Non Restreints</th>
+        <th>Eec Restreints</th>
+        <th>Eec Total</th>
+        <th>Ep Non Restreints</th>
+        <th>Ep Restreints</th>
+        <th>Ep Total</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Default</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
-      </tr>      
-      <tr class="success">
-        <td>Success</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>Contributions des parrainages</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
-      <tr class="danger">
-        <td>Danger</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+      <tr>
+        <td>HGFD</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
-      <tr class="info">
-        <td>Info</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+      <tr>
+        <td>SOS Kinderdorf e.V.</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>SOS Denmark</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>SOS Sweden</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Transfer fr. SOS Ass. via STS</td>
+        <td>98565625</td>
+        <td></td>
+        <td>98565625</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Dons spéciaux via le HGFD</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Dons spéciaux via SOS-KDEV</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>     
+      <tr>
+        <td>...</td>
+        <td>98565625</td>
+        <td></td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
       <tr class="warning">
-        <td>Warning</td>
-        <td>Refs</td>
-        <td>bo@example.com</td>
+        <td>Total</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
       </tr>
-      <tr class="active">
-        <td>Active</td>
-        <td>Activeson</td>
-        <td>act@example.com</td>
+      <br><br>git status
+
+ <center>
+      <h5>Note 2 : Recettes des APS pour Dépenses de Construction (CC)</h5>
+ </center>
+  <table class="table table-bordered" >
+    <thead>
+      <tr class="success">
+        <td></td>
+        <th>Eec Non Restreints</th>
+        <th>Eec Restreints</th>
+        <th>Eec Total</th>
+        <th>Ep Non Restreints</th>
+        <th>Ep Restreints</th>
+        <th>Ep Total</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HGFD</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>SOS Kinderdorf e.V.</td>
+        <td>52654125</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>SOS Denmark</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>SOS Sweden</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Transfer fr. SOS Ass. via STS</td>
+        <td>98565625</td>
+        <td></td>
+        <td>98565625</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Dons spéciaux via le HGFD</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Dons spéciaux via SOS-KDEV</td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>     
+      <tr>
+        <td>...</td>
+        <td>98565625</td>
+        <td></td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr class="warning">
+        <td>Total</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
+        <td>98565625</td>
+        <td>-</td>
+        <td>98565625</td>
+      </tr>
+
+
+
+
+
+
+      <tr>
+        <td>Structure 1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Structure 2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+      </tr>
+      <tr class="warning">
+        <td>Total</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      
+      <tr class="success">
+        <td>Subventions du Gouuvernement</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Localité 2 :</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Structure 3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Structure 4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+      </tr>
+      <tr class="warning">
+        <td>Total</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>    
+      <tr class="warning">
+        <td>Total Fonds Restreints</td>
+        <td>0</td>
+        <td>85245295</td>
+        <td>7429525</td>
+        <td>8524562</td>
+      </tr>  
     </tbody>
   </table>
 </div>
