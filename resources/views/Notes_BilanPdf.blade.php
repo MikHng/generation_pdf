@@ -28,12 +28,7 @@
 <h2 style="text-decoration: underline;">SOS Villages d'Enfants BENIN</h2>
   <h3 style="text-decoration: underline;">Notes du Bilan au 31 Décembre 2021 </h3>
 </center>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/notesbilanpdf"> 
-    Télécharger Notes Bilan en Pdf
-  </a>
-   <h3><br>Note 1 : Immobilisation incorporelles (en LCY)</h3>                   
-  <br>
+<h3><br>Note 1 : Immobilisation incorporelles (en LCY)</h3>
   <table class="table table-bordered">
     <thead>
       <tr style="background-color:#ccffcc" >
@@ -1052,12 +1047,6 @@
       </tr>
     </tbody>
   </table>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/notesbilanpdf"> 
-    Télécharger Notes Bilan en Pdf
-  </a>
-                      
-  <br><br>
 </div>
 <br><br>
 

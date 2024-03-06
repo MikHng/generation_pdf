@@ -8,6 +8,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 8px;
+      text-align: left;
+      /*border-color:black;*/
+    }
+  </style>
 </head>
 <body>
 
@@ -16,16 +29,10 @@
   <h2 style="text-decoration: underline;">SOS Villages d'Enfants BENIN</h2>
   <h3 style="text-decoration: underline;">Etat de Flux de Trésorerie pour l'exercice clos au 31 Décembre 2021</h3>
 </center>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfluxpdf"> 
-    Télécharger l'Etat de Flux de Trésorerie en Pdf
-  </a>
-                      
-  <br>
 
   <table class="table table-bordered">
     <thead>
-      <tr class="info">
+      <tr style="background-color:#dce6f1">
         <th>Ref.</th>
         <th>Description</th>
         <th>Exercice en cours (E-   R+)</th>
@@ -35,7 +42,7 @@
     <tbody>
       <tr>
         <td></td>
-        <td class="success">Flux de Trésorerie Provenant des Opérations d'Exploitation</td>
+        <td style="background-color:#ccffcc" >Flux de Trésorerie Provenant des Opérations d'Exploitation</td>
         <td></td>
         <td></td>
       </tr>      
@@ -76,7 +83,7 @@
         <td></td>
       </tr>
       
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td>R1</td>
         <td>Excédent d'Exploitation avant les Changements du Fonds de Roulement</td>
         <td></td>
@@ -102,13 +109,13 @@
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td>R2</td>
         <td>Liquidités générées à partir des Opérations</td>
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td>R3</td>
         <td>Flux net de Trésorerie Provenant des Opérations d'Exploitation</td>
         <td></td>
@@ -122,7 +129,7 @@
       </tr>
       <tr>
         <td></td>
-        <td class="success">Flux de Trésorerie Provenant des Activités d'Investissement</td>
+        <td style="background-color:#ccffcc" >Flux de Trésorerie Provenant des Activités d'Investissement</td>
         <td></td>
         <td></td>
       </tr>
@@ -138,7 +145,7 @@
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td>R4</td>
         <td>Flux net de Trésorerie utilisés pour les activités d'Investissement</td>
         <td></td>
@@ -152,7 +159,7 @@
       </tr>
       <tr>
         <td></td>
-        <td class="success">Flux de Trésorerie Provenant des Activités de capitaux</td>
+        <td style="background-color:#ccffcc" >Flux de Trésorerie Provenant des Activités de capitaux</td>
         <td></td>
         <td></td>
       </tr>
@@ -169,7 +176,7 @@
         <td></td>
       </tr>
 
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td>R5</td>
         <td>Flux net de Trésorerie provenant des activités de capitaux</td>
         <td></td>
@@ -183,7 +190,7 @@
       </tr>
       <tr>
         <td>R6</td>
-        <td class="success">TOTAL FLUX  DE TRESORERIE</td>
+        <td style="background-color:#ccffcc" >TOTAL FLUX  DE TRESORERIE</td>
         <td></td>
         <td></td>
       </tr>
@@ -193,19 +200,19 @@
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td></td>
         <td>Augmentation Nette en Trésorerie et équivalents de trésorerie</td>
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td></td>
         <td>Trésorerie et équivalents de Trésorerie en début d'exercice (note)</td>
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
         <td></td>
         <td>Trésorerie et équivalents de Trésorerie en fin d'exercice (note)</td>
         <td></td>
@@ -218,7 +225,7 @@
 <h3>Note :</h3>
   <table class="table table-bordered">
     <thead>
-      <tr class="success">
+      <tr style="background-color:#ccffcc" >
         <th>&nbsp;  &nbsp;              </th>
         <th></th>
         <th>Exercice en cours</th>
@@ -245,7 +252,7 @@
         <td></td>
         <td></td>
       </tr>
-      <tr class="warning">
+      <tr style="background-color:#ffff99">
       <th></th>
         <td>Total</td>
         <td></td>
@@ -273,19 +280,13 @@
         <h5 class="card-title">Directeur International Région</h5>
         <br><br>
         <p class="card-text">Benoît PIOT</p>
-        
+       
       </div>
-      
     </div>
-    <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfluxpdf"> 
-    Télécharger l'Etat de Flux de Trésorerie en Pdf
-  </a>
-                      
-  <br><br>
   </div>
 </div>
 <br><br>
 
 </body>
 </html>
+

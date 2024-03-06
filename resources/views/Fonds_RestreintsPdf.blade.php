@@ -29,12 +29,6 @@
     <h4><u>Fonds Restreints au 31 Décembre 2021</u></h4>
     <h4><u>Mouvements des fonds restreints</u></h4>
  </center>
- <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/fondspdf"> 
-    Télécharger Fonds Restreints en Pdf
-  </a>
-                      
-  <br><br>
   <table class="table table-bordered" >
     <thead>
       <tr style="background-color:#ccffcc" >
@@ -209,12 +203,6 @@
       </tr>  
     </tbody>
   </table>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/fondspdf"> 
-    Télécharger Fonds Restreints en Pdf
-  </a>
-                      
-  <br><br>
 </div>
 <br>
 <br>

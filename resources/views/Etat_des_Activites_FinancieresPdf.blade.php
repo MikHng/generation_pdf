@@ -29,12 +29,6 @@
     <h3><u>Etat des Activités Financières pour l'exercice en cours qui se termine le 31 Décembre 2021</u> </h3>
   </center>
   <br>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfinancepdf"> 
-    Télécharger l'Etat des Activités Financières en Pdf
-  </a>
-                      
-  <br><br>
   <table class="table table-bordered" >
     <thead>
       <tr style="background-color:#ccffcc" >
@@ -380,11 +374,7 @@
         <h5 class="card-title">Directeur International Région</h5>
         <br><br>
         <p class="card-text">Benoît PIOT</p>
-        <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfinancepdf"> 
-    Télécharger l'Etat des Activités Financières en Pdf
-  </a>
-                      
-  <br><br>
+       
       </div>
     </div>
   </div>

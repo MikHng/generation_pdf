@@ -23,7 +23,7 @@ use App\Http\Controllers\NoteseafController;
 Route::get('/', function () {
     return view('choix');
 });
-
+//routes pour les vues du web
 Route::get('/bilan', [BilanController::class, 'afficherBilan']);
 
 Route::get('/etatfinance', [EtatfinanceController::class, 'afficheretataf']);
@@ -35,3 +35,16 @@ Route::get('/fonds', [FondController::class, 'affichefonds']);
 Route::get('/notesbilan', [NotesbilanController::class, 'affichenotebilan']);
 
 Route::get('/noteseaf', [NoteseafController::class, 'afficheeaf']);
+
+//routes pour les vues de téléchargements
+Route::get('/bilanpdf', [BilanController::class, 'afficherBilanPdf']);
+
+Route::get('/etatfinancepdf', [EtatfinanceController::class, 'afficheretatafPdf']);
+
+Route::get('/etatfluxpdf', [EtatfluxController::class, 'afficheretatfluxPdf']);
+
+Route::get('/fondspdf', [FondController::class, 'affichefondsPdf']);
+
+Route::get('/notesbilanpdf', [NotesbilanController::class, 'affichenotebilanPdf']);
+
+Route::get('/noteseafpdf', [NoteseafController::class, 'afficheeafPdf']);

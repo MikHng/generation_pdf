@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Finance SOS</title>
+  <title>Finance SOS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -29,16 +29,10 @@
     <h4><u>SOS Villages d'enfants BENIN</u></h4>
     <h4><u>Notes à l'Etat des Activités Financières de l'exercice clos au 31 Décembre 2021 </u></h4>
     <br><br>
-    
   </center>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/noteseafpdf"> 
-    Télécharger Notes EAF en Pdf
-  </a>
   <center>
-  <h5>Note 1 : Recettes des APS pour Dépenses de Fonctionnement (RC)</h5> 
-  </center>                   
-  <br>
+  <h5>Note 1 : Recettes des APS pour Dépenses de Fonctionnement (RC)</h5>
+  </center>
   <table class="table table-bordered" >
     <thead>
     <tr style="background-color:#ccffcc" >
@@ -837,12 +831,6 @@
         <td>-</td>
       </tr>
   </table>
-  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/noteseafpdf"> 
-    Télécharger Notes EAF en Pdf
-  </a>
-                      
-  <br><br>
   <br><br>
 </div>
 

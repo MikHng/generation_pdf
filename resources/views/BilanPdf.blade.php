@@ -5,25 +5,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 8px;
+      text-align: left;
+      /*border-color:black;*/
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
   <center>
-    <h3><u>SOS Villages d'enfants BENIN</u></h3>
+    <h3 style="color: #007bff;"><u>SOS Villages d'enfants BENIN</u></h3>
     <h3><u>Bilan au 31 Décembre 2021 </u>(en LCY) </h3>
   </center>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/bilanpdf"> 
-                          Télécharger le Bilan en Pdf
-                        </a>
-                      
-  <br><br>
-  <table class="table table-bordered" >
+  <table  >
     <thead>
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td></td>
         <th>Notes</th>
         <th>Exercice en cours</th>
@@ -37,13 +46,13 @@
         <td></td>
         <td></td>
       </tr>     
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td>ACTIFS</td>
         <td></td>
         <td></td>
         <td></td>
       </tr> 
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td>Actifs Non Courants</td>
         <td></td>
         <td></td>
@@ -97,7 +106,7 @@
         <td></td>
         <td></td>
       </tr>      
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td> Actifs Courants</td>
         <td></td>
         <td></td>
@@ -157,13 +166,13 @@
         <td></td>
         <td></td>
       </tr>    
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td> FONDS ACCUMULES ET PASSIF</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td> Fonds Accumulés</td>
         <td>8</td>
         <td></td>
@@ -193,7 +202,7 @@
         <td></td>
         <td></td>
       </tr>  
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td> Passifs Non Courants</td>
         <td></td>
         <td></td>
@@ -223,7 +232,7 @@
         <td></td>
         <td></td>
       </tr>  
-      <tr style="background-color:#ccffcc">
+      <tr style="background-color:#ccffcc" >
         <td> Passifs Courants</td>
         <td></td>
         <td></td>
@@ -292,19 +301,13 @@
         <h5 class="card-title">Directeur International Région</h5>
         <br><br>
         <p class="card-text">Benoît PIOT</p>
-        <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/bilanpdf"> 
-                          Télécharger le Bilan en Pdf
-                        </a>
-                      
-  <br><br>
+       
       </div>
     </div>
   </div>
 </div>
 <br>
 <br>
-
 </body>
 </html>
 
