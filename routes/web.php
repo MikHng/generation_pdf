@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\BilanController;
+use App\Http\Controllers\EtatfinanceController;
+use App\Http\Controllers\EtatfluxController;
+use App\Http\Controllers\FondController;
+use App\Http\Controllers\NotesbilanController;
+use App\Http\Controllers\NoteseafController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,14 +24,14 @@ Route::get('/', function () {
     return view('choix');
 });
 
-Route::get('/bilan', [Controller::class, 'afficherBilan']);
+Route::get('/bilan', [BilanController::class, 'afficherBilan']);
 
-Route::get('/etatfinance', [Controller::class, 'afficheretataf']);
+Route::get('/etatfinance', [EtatfinanceController::class, 'afficheretataf']);
 
-Route::get('/etatflux', [Controller::class, 'afficheretatflux']);
+Route::get('/etatflux', [EtatfluxController::class, 'afficheretatflux']);
 
-Route::get('/fonds', [Controller::class, 'affichefonds']);
+Route::get('/fonds', [FondController::class, 'affichefonds']);
 
-Route::get('/notesbilan', [Controller::class, 'affichenotebilan']);
+Route::get('/notesbilan', [NotesbilanController::class, 'affichenotebilan']);
 
-Route::get('/noteseaf', [Controller::class, 'afficheeaf']);
+Route::get('/noteseaf', [NoteseafController::class, 'afficheeaf']);
