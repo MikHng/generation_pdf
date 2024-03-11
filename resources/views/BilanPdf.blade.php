@@ -18,7 +18,6 @@
       border: 2px solid black;
       padding: 8px;
       text-align: left;
-      /*border-color:black;*/
     }
   </style>
 </head>

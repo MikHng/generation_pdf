@@ -17,7 +17,6 @@
       border: 2px solid black;
       padding: 8px;
       text-align: left;
-      /*border-color:black;*/
     }
   </style>
 </head>
@@ -529,131 +528,6 @@
       </tr>
     </tbody>
   </table>
-
-  <!--h3>Note 3 : Immeuble de Placement</h3>
-  <table class="table table-bordered">
-    <thead>
-      <tr style="background-color:#ccffcc" >
-        <th></th>
-        <th>Notes</th>
-        <th>Total exercice en cours</th>
-        <th>Total exercice précédent</th>
-
-      </tr>
-    </thead>
-    <tbody>
-    <tr style="background-color:#ccffcc" >
-        <td>Coût</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Au 1er Janvier</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Additions/Rajouts</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Transfert de/à immobilisation corporelle</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Transfert au registre d’inventaire</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Cessions</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr style="background-color:#ffff99">
-        <td>Au 31 Décembre</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><br></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr style="background-color:#ccffcc" >
-        <td>Amortissement & pertes liées à la devaluation</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Au 1er Janvier</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Annuite Amortissements</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td>Pertes liées à la dévaluation</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Cessions</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-
-      <tr style="background-color:#ffff99">
-        <td>Au 31 Décembre</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><br></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr style="background-color:#ccffcc" >
-        <td>Valeur comptable (valeur nette comptable)</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Au 1er Janvier</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr style="background-color:#ffff99">
-        <td>Au 31 Décembre</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table-->
 
   <h3>Note 4 : Actifs Biologiques (en LCY)</h3>
   <table class="table table-bordered">

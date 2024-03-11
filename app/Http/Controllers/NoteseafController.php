@@ -12,12 +12,6 @@ class NoteseafController extends Controller
     {
        return view('Notes_EAF');
         
-      /*   $Data = ['foo' => 'bar'];   
-          $pdf = PDF::loadView('Notes_EAF', ['Data' => $Data])->setOptions(['defaultFont' => 'sans-serif']);
-  
-          
-          $pdf->setPaper('a4', 'landscape');
-          return $pdf->download('Notes_EAF.pdf');*/
   
     }
     public function afficheeafPdf()
