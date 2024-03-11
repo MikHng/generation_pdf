@@ -48,3 +48,7 @@ Route::get('/fondspdf', [FondController::class, 'affichefondsPdf']);
 Route::get('/notesbilanpdf', [NotesbilanController::class, 'affichenotebilanPdf']);
 
 Route::get('/noteseafpdf', [NoteseafController::class, 'afficheeafPdf']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
