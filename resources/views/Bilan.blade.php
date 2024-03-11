@@ -16,7 +16,7 @@
     <h3><u>Bilan au 31 Décembre 2021 </u>(en LCY) </h3>
   </center>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/bilanpdf"> 
+  <a class="btn btn-primary" href="{{route('bilanpdf')}}"> 
                           Télécharger le Bilan en Pdf
                         </a>
                       
@@ -293,7 +293,7 @@
         <br><br>
         <p class="card-text">Benoît PIOT</p>
         <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/bilanpdf"> 
+  <a class="btn btn-primary" href="{{route('bilanpdf')}}"> 
                           Télécharger le Bilan en Pdf
                         </a>
                       

@@ -29,7 +29,7 @@
   </center>
   <br>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfinancepdf"> 
+  <a class="btn btn-primary" href="{{route('etatfinancepdf')}}"> 
     Télécharger l'Etat des Activités Financières en Pdf
   </a>
                       
@@ -379,7 +379,7 @@
         <h5 class="card-title">Directeur International Région</h5>
         <br><br>
         <p class="card-text">Benoît PIOT</p>
-        <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfinancepdf"> 
+        <a class="btn btn-primary" href="{{route('etatfinancepdf')}}"> 
     Télécharger l'Etat des Activités Financières en Pdf
   </a>
                       

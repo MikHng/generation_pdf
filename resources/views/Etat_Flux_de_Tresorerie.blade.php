@@ -17,7 +17,7 @@
   <h3 style="text-decoration: underline;">Etat de Flux de Trésorerie pour l'exercice clos au 31 Décembre 2021</h3>
 </center>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfluxpdf"> 
+  <a class="btn btn-primary" href="{{route('etatfluxpdf')}}"> 
     Télécharger l'Etat de Flux de Trésorerie en Pdf
   </a>
                       
@@ -278,7 +278,7 @@
       
     </div>
     <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/etatfluxpdf"> 
+  <a class="btn btn-primary" href="{{route('etatfluxpdf')}}"> 
     Télécharger l'Etat de Flux de Trésorerie en Pdf
   </a>
                       

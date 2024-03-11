@@ -29,7 +29,7 @@
     <h4><u>Mouvements des fonds restreints</u></h4>
  </center>
  <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/fondspdf"> 
+  <a class="btn btn-primary" href="{{route('fondspdf')}}"> 
     Télécharger Fonds Restreints en Pdf
   </a>
                       
@@ -209,7 +209,7 @@
     </tbody>
   </table>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/fondspdf"> 
+  <a class="btn btn-primary" href="{{route('fondspdf')}}"> 
     Télécharger Fonds Restreints en Pdf
   </a>
                       

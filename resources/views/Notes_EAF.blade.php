@@ -31,7 +31,7 @@
     
   </center>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/noteseafpdf"> 
+  <a class="btn btn-primary" href="{{route('noteseafpdf')}}"> 
     Télécharger Notes EAF en Pdf
   </a>
   <center>
@@ -837,7 +837,7 @@
       </tr>
   </table>
   <br>
-  <a class="btn btn-primary" href="http://127.0.0.1:8000/noteseafpdf"> 
+  <a class="btn btn-primary" href="{{route('noteseafpdf')}}"> 
     Télécharger Notes EAF en Pdf
   </a>
                       
