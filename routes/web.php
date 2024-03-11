@@ -21,40 +21,54 @@ use App\Http\Controllers\NoteseafController;
 |
 */
 
-Route::get('/', function () {
-    return view('choix');
-});
+//Route::get('/', function () {
+   // return view('login');
+
+//});
 //routes pour les vues du web
-Route::get('/bilan', [BilanController::class, 'afficherBilan']);
+//Route::get('/', [BilanController::class, 'afficherBilan'])->middleware('auth');
 
-Route::get('/etatfinance', [EtatfinanceController::class, 'afficheretataf']);
+Route::get('/bilan', [BilanController::class, 'afficherBilan'])->middleware('auth');
 
-Route::get('/etatflux', [EtatfluxController::class, 'afficheretatflux']);
 
-Route::get('/fonds', [FondController::class, 'affichefonds']);
+Route::get('/etatfinance', [EtatfinanceController::class, 'afficheretataf'])->middleware('auth');
 
-Route::get('/notesbilan', [NotesbilanController::class, 'affichenotebilan']);
 
-Route::get('/noteseaf', [NoteseafController::class, 'afficheeaf']);
+Route::get('/etatflux', [EtatfluxController::class, 'afficheretatflux'])->middleware('auth');
+
+
+Route::get('/fonds', [FondController::class, 'affichefonds'])->middleware('auth');
+
+
+Route::get('/notesbilan', [NotesbilanController::class, 'affichenotebilan'])->middleware('auth');
+
+
+Route::get('/noteseaf', [NoteseafController::class, 'afficheeaf'])->middleware('auth');
+
 
 //routes pour les vues de téléchargements
-Route::get('/bilanpdf', [BilanController::class, 'afficherBilanPdf']);
+Route::get('/bilanpdf', [BilanController::class, 'afficherBilanPdf'])->middleware('auth');
 
-Route::get('/etatfinancepdf', [EtatfinanceController::class, 'afficheretatafPdf']);
 
-Route::get('/etatfluxpdf', [EtatfluxController::class, 'afficheretatfluxPdf']);
+Route::get('/etatfinancepdf', [EtatfinanceController::class, 'afficheretatafPdf'])->middleware('auth');
 
-Route::get('/fondspdf', [FondController::class, 'affichefondsPdf']);
 
-Route::get('/notesbilanpdf', [NotesbilanController::class, 'affichenotebilanPdf']);
+Route::get('/etatfluxpdf', [EtatfluxController::class, 'afficheretatfluxPdf'])->middleware('auth');
 
-Route::get('/noteseafpdf', [NoteseafController::class, 'afficheeafPdf']);
+
+Route::get('/fondspdf', [FondController::class, 'affichefondsPdf'])->middleware('auth');
+
+
+Route::get('/notesbilanpdf', [NotesbilanController::class, 'affichenotebilanPdf'])->middleware('auth');
+
+
+Route::get('/noteseafpdf', [NoteseafController::class, 'afficheeafPdf'])->middleware('auth');
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
