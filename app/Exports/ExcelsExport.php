@@ -18,7 +18,7 @@ class ExcelsExport implements FromView, WithStyles
 {
     public function view(): View
     {
-                return view('bilanpdf');
+                return view('BilanPdf');
     
     }
 
