@@ -32,6 +32,10 @@
   <a class="btn btn-primary" href="{{route('fondspdf')}}"> 
     Télécharger Fonds Restreints en Pdf
   </a>
+  <br><br>
+                        <a class="btn btn-info" href="{{route('fondexcel')}}"> 
+                          Télécharger Fonds Restreints en excel
+                        </a>
                       
   <br><br>
   <table class="table table-bordered" >

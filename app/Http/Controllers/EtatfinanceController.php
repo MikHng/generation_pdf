@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use PDF;
 use Barryvdh\DomPDF\Facade;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\EtatfinanceExport;
 
 
 class EtatfinanceController extends Controller
@@ -24,4 +26,9 @@ class EtatfinanceController extends Controller
         return $pdf->download('Etat_des_Activites_Financieres.pdf');
 
     }
+
+    public function export() 
+        {
+            return Excel::download(new EtatfinanceExport, 'Etat_des_Activites_Financieres.xlsx');
+        }
 }

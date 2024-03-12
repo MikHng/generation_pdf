@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Finance SOS</title>
+  <title>Finance SOS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -28,20 +28,10 @@
     <h4><u>SOS Villages d'enfants BENIN</u></h4>
     <h4><u>Notes à l'Etat des Activités Financières de l'exercice clos au 31 Décembre 2021 </u></h4>
     <br><br>
-    
   </center>
-  <br>
-  <a class="btn btn-primary" href="{{route('noteseafpdf')}}"> 
-    Télécharger Notes EAF en Pdf
-  </a>
-  <br><br>
-                        <a class="btn btn-info" href="{{route('noteseafexcel')}}"> 
-                          Télécharger Notes EAF en excel
-                        </a>
   <center>
-  <h5>Note 1 : Recettes des APS pour Dépenses de Fonctionnement (RC)</h5> 
-  </center>                   
-  <br>
+  <h5>Note 1 : Recettes des APS pour Dépenses de Fonctionnement (RC)</h5>
+  </center>
   <table class="table table-bordered" >
     <thead>
     <tr style="background-color:#ccffcc" >
@@ -417,7 +407,7 @@
       </tr>
   </table>
   <br><br>
-  <center>
+  <!--center>
   <h5>Note 5 : Recettes d'Exploitation </h5>
   </center>
   <table class="table table-bordered" >
@@ -426,6 +416,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -433,21 +427,37 @@
         <td>Cotisations</td>
         <td>895645544</td>
         <td>895645254</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Recettes</td>
         <td>87451221</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Cotisations d'autres institutions SOS</td>
         <td>5412632</td>
         <td>5642632</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -460,6 +470,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -467,31 +481,55 @@
         <td>Vente des actifs</td>
         <td>895645544</td>
         <td>895645254</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Loyers</td>
         <td>895645544</td>
         <td>895645254</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Intérêts bancaires (crediteurs)</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Remboursement/Reversement TVA</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Recettes diversesS</td>
         <td>5412632</td>
         <td>5642632</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -506,11 +544,15 @@
         <th>Frais d'Exploitation Courants</th>
         <th>Frais du Personnel</th>
         <th>Dépenses Administratives</th>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
       <tr style="background-color:#c0c0c0">
         <td>Localité 1</td>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -522,6 +564,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Programmes d'Education</td>
@@ -529,6 +573,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>PRF</td>
@@ -536,6 +582,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>      
       <tr style="background-color:#ccffcc" >
         <td>Total Localité 1</td>
@@ -543,6 +591,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Des Fonds Restreints</td>
@@ -550,9 +600,13 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
       <td>Des Fonds non Restreints</td>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -564,6 +618,8 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Assistance Familiale à Long Terme</td>
@@ -571,6 +627,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Programmes d'Education</td>
@@ -578,6 +636,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>PRF</td>
@@ -585,6 +645,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>      
       <tr style="background-color:#ccffcc" >
         <td>Total Localité 2</td>
@@ -592,6 +654,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Des Fonds Restreints</td>
@@ -599,9 +663,13 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
       <td>Des Fonds non Restreints</td>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -613,6 +681,8 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Assistance Familiale à Long Terme</td>
@@ -620,6 +690,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Programmes d'Education</td>
@@ -627,6 +699,8 @@
         <td>(79825655)</td>
         <td>-</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>PRF</td>
@@ -634,6 +708,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>      
       <tr style="background-color:#ccffcc" >
         <td>Total Localité 3</td>
@@ -641,6 +717,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Des Fonds Restreints</td>
@@ -648,9 +726,13 @@
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
       <td>Des Fonds non Restreints</td>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -662,6 +744,8 @@
         <td>(79825655)</td>
         <td>(79825655)</td>
         <td>(79825655)</td>
+        <td></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -675,6 +759,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -682,21 +770,37 @@
         <td>Frais d'Exploitation Courants</td>
         <td>895645544</td>
         <td>895645254</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Frais du Personnel</td>
         <td>87451221</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Dépenses Administratives</td>
         <td>5412632</td>
         <td>5642632</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -709,6 +813,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -716,26 +824,46 @@
         <td>Activités de Collecte de Fonds</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Frais d'Exploitation Courants</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Frais du Personnel</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Dépenses Administratives</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -748,6 +876,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -755,26 +887,46 @@
         <td>Amortissements</td>
         <td>568756235</td>
         <td>98653252</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Dépenses liées à la vente des Actifs immobilises</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Autres évaluations & créances irrécouvrables</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Autres dépenses non monétaires</td>
         <td>568756235</td>
         <td>98653252</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -787,6 +939,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -794,21 +950,37 @@
         <td>Intérêts créditeurs générés par les dépôts</td>
         <td>895645544</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Intérêts débiteurs générés par les emprunts</td>
         <td>87451221</td>
         <td>6525245</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Gain ou perte de change (résultant de la variation des taux de change)</td>
         <td>5412632</td>
         <td>5642632</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>98652756</td>
         <td>4512426</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
   </table>
   <br><br>
@@ -821,6 +993,10 @@
         <td></td>
         <th>Exercice en cours</th>
         <th>Exercice précédent</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
     </thead>
     <tbody>
@@ -828,24 +1004,30 @@
         <td>Impôts (ou taxes) exigibles sur les activités ordinaires</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr>
         <td>Taxe sur les subventions reçues par les ONG</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td></td>
       </tr>
       <tr style="background-color:#ffff99">
       <td>Total</td>
         <td>-</td>
         <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
-  </table>
-  <br>
-  <a class="btn btn-primary" href="{{route('noteseafpdf')}}"> 
-    Télécharger Notes EAF en Pdf
-  </a>
-                      
-  <br><br>
+  </table-->
   <br><br>
 </div>
 

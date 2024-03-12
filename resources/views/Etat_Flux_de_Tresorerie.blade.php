@@ -20,6 +20,10 @@
   <a class="btn btn-primary" href="{{route('etatfluxpdf')}}"> 
     Télécharger l'Etat de Flux de Trésorerie en Pdf
   </a>
+  <br><br>
+                        <a class="btn btn-info" href="{{route('etatfluxexcel')}}"> 
+                          Télécharger l'Etat de Flux de Trésorerie en excel
+                        </a>
                       
   <br>
 

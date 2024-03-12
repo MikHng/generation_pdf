@@ -53,5 +53,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/bilanexcel', [BilanController::class, 'export']);
+Route::get('/bilanexcel', [BilanController::class, 'export'])->middleware('auth')->name('bilanexcel');
+Route::get('/etatfinanceexcel', [EtatfinanceController::class, 'export'])->middleware('auth')->name('etatfinanceexcel');
+Route::get('/etatfluxexcel', [EtatfluxController::class, 'export'])->middleware('auth')->name('etatfluxexcel');
+Route::get('/fondexcel', [FondController::class, 'export'])->middleware('auth')->name('fondexcel');
+Route::get('/notesbilanexcel', [NotesbilanController::class, 'export'])->middleware('auth')->name('notesbilanexcel');
+Route::get('/noteseafexcel', [NoteseafController::class, 'export'])->middleware('auth')->name('noteseafexcel');
 
