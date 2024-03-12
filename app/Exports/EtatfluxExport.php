@@ -25,25 +25,27 @@ class EtatfluxExport implements FromView, WithStyles
    public function styles(Worksheet $sheet)
    {
     $colors = [
+        'A3:D3' => 'dce6f1',  //bleu
         'A4:D4' => 'ccffcc',  // Vert
-        'A6:D6' => 'ccffcc',  // Vert
-        'A7:D7' => 'ccffcc',  // Vert
-        'A14:D14' => 'ffff99',  // Jaune
-        'A16:D16' => 'ccffcc',  // Vert
-        'A22:D22' => 'ffff99',  // Jaune
-        'A24:D24' => 'ffff99',  // Jaune
-        'A26:D26' => 'ccffcc',  // Vert
-        'A27:D27' => 'ccffcc',  // Vert
+        'A11:D11' => 'ffff99',  // Jaune
+        'A15:D15' => 'ffff99',  // Jaune
+        'A16:D16' => 'ffff99',  // Jaune
+        'A18:D18' => 'ccffcc',  // Vert
+        'A21:D21' => 'ffff99',  // Jaune
+        'A23:D23' => 'ccffcc',  // Vert
+        'A26:D26' => 'ffff99',  // Jaune
+        'A28:D28' => 'ccffcc',  // Vert
         'A30:D30' => 'ffff99',  // Jaune
-        'A32:D32' => 'ccffcc',  // Vert
-        'A35:D35' => 'ffff99',  // Jaune
-        'A37:D37' => 'ccffcc',  // Vert
-        'A42:D42' => 'ffff99',  // Jaune
-        'A44:D44' => 'ffff99',  // Jaune
+        'A31:D31' => 'ffff99',  // Jaune
+        'A32:D32' => 'ffff99',  // Jaune
+        'A36:D36' => 'ccffcc',  // Vert
+        'A40:D40' => 'ffff99',  // Jaune
+
+
       
     ];
    //A4 etant le debut et D44 etant la fin;
-    $ranges = 'A4:' . 'D44';
+    $ranges = 'A3:' . 'D40';
 
     foreach ($colors as $range => $color) {
         $sheet->getStyle($range)

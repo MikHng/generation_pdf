@@ -25,25 +25,18 @@ class FondExport implements FromView, WithStyles
    public function styles(Worksheet $sheet)
    {
     $colors = [
-        'A4:D4' => 'ccffcc',  // Vert
-        'A6:D6' => 'ccffcc',  // Vert
-        'A7:D7' => 'ccffcc',  // Vert
-        'A14:D14' => 'ffff99',  // Jaune
-        'A16:D16' => 'ccffcc',  // Vert
-        'A22:D22' => 'ffff99',  // Jaune
-        'A24:D24' => 'ffff99',  // Jaune
-        'A26:D26' => 'ccffcc',  // Vert
-        'A27:D27' => 'ccffcc',  // Vert
-        'A30:D30' => 'ffff99',  // Jaune
-        'A32:D32' => 'ccffcc',  // Vert
-        'A35:D35' => 'ffff99',  // Jaune
-        'A37:D37' => 'ccffcc',  // Vert
-        'A42:D42' => 'ffff99',  // Jaune
-        'A44:D44' => 'ffff99',  // Jaune
-      
+        'A4:E4' => 'ccffcc',  // Vert
+        'A6:E6' => 'ccffcc',  // Vert
+        'A13:E13' => 'ffff99',  // Jaune
+        'A15:E15' => 'ccffcc',  // Vert
+        'A19:E19' => 'ffff99',  // Jaune
+        'A21:E21' => 'ccffcc',  // Vert
+        'A25:E25' => 'ffff99',  // Jaune
+        'A27:E27' => 'ffff99',  // Jaune
+        
     ];
    //A4 etant le debut et D44 etant la fin;
-    $ranges = 'A4:' . 'D44';
+    $ranges = 'A4:' . 'E27';
 
     foreach ($colors as $range => $color) {
         $sheet->getStyle($range)
