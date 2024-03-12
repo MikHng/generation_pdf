@@ -31,7 +31,7 @@
   <br>
   <table  >
     <thead>
-      <tr style="background-color:#ccffcc" >
+      <tr class="header-style" style="background-color:#ccffcc" >
         <td></td>
         <th>Notes</th>
         <th>Exercice en cours</th>
