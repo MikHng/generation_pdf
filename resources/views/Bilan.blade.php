@@ -19,6 +19,10 @@
   <a class="btn btn-primary" href="{{route('bilanpdf')}}"> 
                           Télécharger le Bilan en Pdf
                         </a>
+                        <br><br>
+                        <a class="btn btn-info" href="{{route('bilanexcel')}}"> 
+                          Télécharger le Bilan en excel
+                        </a>
                       
   <br><br>
   <table class="table table-bordered" >

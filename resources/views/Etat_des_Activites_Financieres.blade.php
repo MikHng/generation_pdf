@@ -32,6 +32,10 @@
   <a class="btn btn-primary" href="{{route('etatfinancepdf')}}"> 
     Télécharger l'Etat des Activités Financières en Pdf
   </a>
+  <br><br>
+                        <a class="btn btn-info" href="{{route('etatfinanceexcel')}}"> 
+                          Télécharger l'Etat des Activités Financières en excel
+                        </a>
                       
   <br><br>
   <table class="table table-bordered" >

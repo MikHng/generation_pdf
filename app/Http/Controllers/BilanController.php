@@ -26,8 +26,8 @@ class BilanController extends Controller
         return $pdf->download('Bilan.pdf');
     }
     public function export() 
-{
-    return Excel::download(new ExcelsExport, 'bilan.xlsx');
-}
+        {
+            return Excel::download(new ExcelsExport, 'bilan.xlsx');
+        }
 
 }

@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use PDF;
 use Barryvdh\DomPDF\Facade;
-
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\EtatfluxExport;
 
 class EtatfluxController extends Controller
 {
@@ -23,5 +24,10 @@ class EtatfluxController extends Controller
         $pdf->setPaper('a4', 'landscape');
         return $pdf->download('Etat_Flux_de_Tresorerie.pdf');
 
+    }
+
+    public function export() 
+    {
+        return Excel::download(new EtatfluxExport, 'Etat_Flux_de_Tresorerie.xlsx');
     }
 }

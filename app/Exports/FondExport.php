@@ -14,11 +14,11 @@ use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Events\AfterSheet;
 use PhpOffice\PhpSpreadsheet\Style\Border;
 
-class ExcelsExport implements FromView, WithStyles
+class FondExport implements FromView, WithStyles
 {
     public function view(): View
     {
-                return view('BilanPdf');
+                return view('Fonds_RestreintsPdf');
     
     }
 
