@@ -13,12 +13,16 @@ use PhpOffice\PhpSpreadsheet\Style\Fill;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Events\AfterSheet;
 use PhpOffice\PhpSpreadsheet\Style\Border;
+use Maatwebsite\Excel\Concerns\Exportable;
+
 
 class NotesbilanExport implements FromView, WithStyles
 {
+    use Exportable;
     public function view(): View
     {
-                return view('Notes_BilanPdf');
+       
+                return view('Notes_BilanExcel');
     
     }
 

@@ -155,7 +155,7 @@
       </tr>
   </table>
       <br><br>
-  <center>
+  <!--center>
       <h5>Note 2 : Recettes des APS pour Dépenses de Construction (CC)</h5>
   </center>
   <table class="table table-bordered" >
@@ -407,7 +407,7 @@
       </tr>
   </table>
   <br><br>
-  <!--center>
+  <center>
   <h5>Note 5 : Recettes d'Exploitation </h5>
   </center>
   <table class="table table-bordered" >
