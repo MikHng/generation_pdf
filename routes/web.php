@@ -6,6 +6,7 @@ use App\Http\Controllers\BilanController;
 use App\Http\Controllers\EtatfinanceController;
 use App\Http\Controllers\EtatfluxController;
 use App\Http\Controllers\FondController;
+use App\Http\Controllers\DocController;
 use App\Http\Controllers\NotesbilanController;
 use App\Http\Controllers\NoteseafController;
 use App\Http\Controllers\Auth\RegisterController;
@@ -29,6 +30,7 @@ Route::get('/notesbilan', [NotesbilanController::class, 'affichenotebilan'])->mi
 
 Route::get('/noteseaf', [NoteseafController::class, 'afficheeaf'])->middleware('auth')->name('noteseaf');
 
+Route::get('/doc', [DocController::class, 'affichedoc'])->middleware('auth')->name('documentation');
 
 //routes pour les vues de téléchargements
 Route::get('/bilanpdf', [BilanController::class, 'afficherBilanPdf'])->middleware('auth')->name('bilanpdf');
