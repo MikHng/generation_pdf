@@ -8,6 +8,8 @@ use App\Http\Controllers\EtatfluxController;
 use App\Http\Controllers\FondController;
 use App\Http\Controllers\NotesbilanController;
 use App\Http\Controllers\NoteseafController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Middleware;
 
 //routes pour les vues sécurisées et nommées
 Route::get('/bilan', [BilanController::class, 'afficherBilan'])->middleware('auth')->name('bilan');
@@ -60,3 +62,10 @@ Route::get('/fondexcel', [FondController::class, 'export'])->middleware('auth')-
 Route::get('/notesbilanexcel', [NotesbilanController::class, 'export'])->middleware('auth')->name('notesbilanexcel');
 Route::get('/noteseafexcel', [NoteseafController::class, 'export'])->middleware('auth')->name('noteseafexcel');
 
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->middleware('verifyUserAccess')->name('register');
+
+/*Route::middleware(['auth'])->group(function () {
+    Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+});*/
+
+Route::post('/register', [RegisterController::class, 'register']);
