@@ -1,0 +1,253 @@
+<!-- resources/views/partials/tableaubilan.blade.php -->
+<table class="table table-bordered" >
+    <thead>
+      <tr style="background-color:#ccffcc">
+        <td></td>
+        <th>Notes</th>
+        <th>Exercice en cours</th>
+        <th>Exercice précédent</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>     
+      <tr style="background-color:#ccffcc">
+        <td>ACTIFS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr style="background-color:#ccffcc">
+        <td>Actifs Non Courants</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Immobilisation incorporelles</td>
+        <td>1</td>
+        <td>89562456</td>
+        <td>5462857</td>
+      </tr>
+      <tr>
+        <td>Immobilisation corporelles</td>
+        <td>2</td>
+        <td>784925865</td>
+        <td>8564248452</td>
+      </tr>
+      <tr>
+        <td>Immeuble de placement</td>
+        <td>3</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Autres actifs financiers à long terme</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Placements en titres de capitaux propres</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Actifs biologiques</td>
+        <td>4</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Actifs Non Courants</td>
+        <td></td>
+        <td>78451254</td>
+        <td>87459865</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      
+      <tr style="background-color:#ccffcc">
+        <td> Actifs Courants</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Inventaires, Stocks</td>
+        <td>5</td>
+        <td>542106523</td>
+        <td>56234562</td>
+      </tr>
+      <tr>
+        <td>Créances</td>
+        <td>6</td>
+        <td>41201</td>
+        <td>652152</td>
+      </tr>
+      <tr>
+        <td>Trésorerie et équivalents trésorerie</td>
+        <td>7</td>
+        <td>54254</td>
+        <td>56245</td>
+      </tr>
+      <tr>
+        <td>Autres actifs financiers à court terme</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Charges comptabilisées d'avance</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Actifs Courants</td>
+        <td></td>
+        <td>98562856</td>
+        <td>0854525</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      
+      <tr style="background-color:#ffff99">
+        <td>Total Actifs</td>
+        <td></td>
+        <td>87542856</td>
+        <td>9657854</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>    
+      <tr style="background-color:#ccffcc">
+        <td> FONDS ACCUMULES ET PASSIF</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="background-color:#ccffcc">
+        <td> Fonds Accumulés</td>
+        <td>8</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Fonds non restreints</td>
+        <td></td>
+        <td>(56235698)</td>
+        <td>(485425)</td>
+      </tr>
+      <tr>
+        <td>Fonds restreints</td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Fonds Accumulés</td>
+        <td></td>
+        <td>(542562874)</td>
+        <td>(56287452)</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>  
+      <tr style="background-color:#ccffcc">
+        <td> Passifs Non Courants</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td>Fonds de dépot</td>
+        <td>9</td>
+        <td>(56235698)</td>
+        <td>(485425)</td>
+      </tr>
+      <tr>
+        <td>Provisions à long terme</td>
+        <td>10</td>
+        <td>(56235698)</td>
+        <td>(56235698)</td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Passifs Non Courants</td>
+        <td></td>
+        <td>(85245295)</td>
+        <td>(7429525)</td>
+      </tr>  
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>  
+      <tr style="background-color:#ccffcc">
+        <td> Passifs Courants</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td>Dettes à court terme</td>
+        <td>11</td>
+        <td>(56235698)</td>
+        <td>(485425)</td>
+      </tr>
+      <tr>
+        <td>Eventualités</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Produits comptabilisés d'avance</td>
+        <td></td>
+        <td>(56235698)</td>
+        <td>(485425)</td>
+      </tr>
+      <tr>
+        <td>Autres dettes</td>
+        <td></td>
+        <td>(56235698)</td>
+        <td>(56235698)</td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Passifs Courants</td>
+        <td></td>
+        <td>(85245295)</td>
+        <td>(7429525)</td>
+      </tr>  
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Total Fonds Accumulés et Passif</td>
+        <td></td>
+        <td>(85245295)</td>
+        <td>(7429525)</td>
+      </tr>  
+    </tbody>
+  </table>
