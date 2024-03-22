@@ -25,7 +25,7 @@
 <div class="container">
 <center>
 <h2 style="text-decoration: underline;">SOS Villages d'Enfants BENIN</h2>
-  <h3 style="text-decoration: underline;">Notes du Bilan au 31 Décembre 2021 </h3>
+  <h3 style="text-decoration: underline;">Notes du Bilan au 31 Décembre {{ date('Y') }} </h3>
 </center>
 <h3><br>Note 1 : Immobilisation incorporelles (en LCY)</h3>
 <br>

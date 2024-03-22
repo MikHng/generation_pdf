@@ -25,7 +25,8 @@
 <div class="container">
   <center>
     <h3><u>SOS Villages d'enfants BENIN</u></h3>
-    <h3><u>Etat des Activités Financières pour l'exercice en cours qui se termine le 31 Décembre 2021</u> </h3>
+    <h3><u>Etat des Activités Financières pour l'exercice en cours qui se termine le 31 Décembre {{ date('Y') }}
+</u> </h3>
   </center>
   <br>
   <br>

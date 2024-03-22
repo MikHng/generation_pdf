@@ -26,7 +26,7 @@
 <div class="container">
 <center>
   <h2 style="text-decoration: underline;">SOS Villages d'Enfants BENIN</h2>
-  <h3 style="text-decoration: underline;">Etat de Flux de Trésorerie pour l'exercice clos au 31 Décembre 2021</h3>
+  <h3 style="text-decoration: underline;">Etat de Flux de Trésorerie pour l'exercice clos au 31 Décembre {{ date('Y') }}</h3>
 </center>
 
 @include('partials.tableauflux') <!-- Inclure le tableau ici -->>

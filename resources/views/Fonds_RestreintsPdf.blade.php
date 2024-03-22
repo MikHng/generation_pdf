@@ -25,7 +25,7 @@
 <div class="container">
   <center>
     <h4><u>SOS Villages d'enfants BENIN</u></h4>
-    <h4><u>Fonds Restreints au 31 Décembre 2021</u></h4>
+    <h4><u>Fonds Restreints au 31 Décembre {{ date('Y') }}</u></h4>
     <h4><u>Mouvements des fonds restreints</u></h4>
  </center>
 

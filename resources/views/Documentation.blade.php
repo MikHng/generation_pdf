@@ -122,7 +122,7 @@
                     <h2>A) Authentification et autorisation</h2>
                     <p>- Avant toute connexion, vous devrez disposer d'une adresse e-mail et d'un mot de passe déjà enregistrés. Le responsable des TIC vous aidera à en créer un.</p>
                     <p>- Sur la page de connexion, veuillez entrer l'adresse e-mail et le mot de passe pour vous connecter.</p>
-                    <p> -  </p>
+                    <p>-  </p>
 
                     <!--div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
