@@ -118,11 +118,46 @@
                 </nav>
 
                 <div class="container-fluid">
-                    <h1 style="text-align:center"><u>Utilisation</u></h1>
-                    <h2>A) Authentification et autorisation</h2>
-                    <p>- Avant toute connexion, vous devrez disposer d'une adresse e-mail et d'un mot de passe déjà enregistrés. Le responsable des TIC vous aidera à en créer un.</p>
-                    <p>- Sur la page de connexion, veuillez entrer l'adresse e-mail et le mot de passe pour vous connecter.</p>
-                    <p>-  </p>
+                    
+                    <p>Cette application permet d'importer un fichier excel comportant des données qui permettront de générer les rapports des états des activités financières. Vous aurez ici tout les détails sur l'utilisation de l'application.</p>
+                    <h1 style="text-align:center"> <span style="color:black;"><u><b>Utilisation</b></u></span></h1>
+                    <h2> <span style="color:black;"> A) Authentification et autorisation</span></h2>
+                    <p>- Avant toute connexion, vous devrez disposer d'une adresse e-mail et d'un mot de passe déjà enregistrés. Le responsable des TICs vous aidera à en créer un;</p>
+                    <p>- Sur la page de connexion, veuillez entrer l'adresse e-mail et le mot de passe pour vous connecter;</p>
+                    <p>- Pour ajouter ou supprimer un Utilisateur vous devez vous rapprocher du Manager des Tics.</p>
+                    <br>
+                    <h2> <span style="color:black;">B) Fonctionnalités pricipales</span></h2>
+                    <br>
+                    <h4> <span style="color:black;">1- Importation de fichiers</span></h4>
+                    <p>- Une fois connectée vous verrez la page d'importation où vous pourrez télécharger le modèle du fichier à importer;</p>
+                    <p>- Pour importer le fichier excel appuyez sur le boutton <b>Choisir un fichier</b> pour un fichier respectant la forme du modèle et appuyez ensuite sur <b>Envoyer le fichier;</b></p>
+                    <p>- Une fois votre fichier importé, vous appuyez sur <b>Générer les rapports</b> en haut à droite pour générer les différents rapports;</p>
+                    <p>- Le boutton <b>Supprimer les données</b> vous permettra de supprimer les données que vous avez importées de la base de données.</p>
+                    <img src="{{ asset ('Images\page_importation.png')}}" class="img-fluid" alt="capture d'écran de la page d'importation">
+                    <br><br>
+                    <h4> <span style="color:black;">2- Générations des rapports </span></h4>
+                    <p>- Vous devez en premier lieu remplir les imformations sur les rapports(Structure, Année, Signataire) et ensuite cliquer sur le boutton <b>Enregistrer et voir les rapports</b>;</p>
+                    <img src="{{ asset ('Images\Informations_rapports.png')}}" class="img-fluid" alt="capture d'écran du formulaire permettant de remplir les informations">
+                    
+                    <br><br>
+                    <p>- Après l'importation des fichiers, l'application récupère les données et effectue des calculs necessaires avec des formules bien précises afin d'obtenir les différents rapports</p>
+                    <p>- Vous verrez alors les différents rapports que vous pouvez consulter. Les rapports disponibles sont: Bilan, Notes-Bilan, Etat des activités financières, Notes-EAF, Fonds restreints, Etat Flux de Trésorerie.</p>
+                    <img src="{{ asset ('Images\différents_rapports.png')}}" class="img-fluid" alt="capture d'écran de la page d'importation">
+                    <br>
+                    <br>
+                    <h4> <span style="color:black;">3- Téléchargement des rapports </span></h4>
+                    <p>- Sur la page de chaque rapports vous verrez en haut, à gauche, deux bouttons qui vous permettent de télécharger les rapports soit en format excel, soit en format pdf</p>
+                    <img src="{{ asset ('Images\Téléchargement_rapports.png')}}" class="img-fluid" alt="capture d'écran de la page d'importation">
+                    <br>
+                    <br>
+                    <h1 style="text-align:center"> <span style="color:black;"<u><b>Sécurité</b></u></span></h1>
+                    <h2> <span style="color:black;">A) Bonnes pratiques de sécurité</span></h2>
+                    <p>- Pour des questions de sécurité, seul le Manager des TICs peut créer un nouvel utilisateur;</p>
+                    <p>- Ne ppartagez pas vos identifiants avec d'autres personnes</p>
+                    <p>- Lorsque vous nêtes pas en cours d'utilisation veuillez fermer votre section</p>
+                    <h2> <span style="color:black;">B) Politiques de confidentialité</span></h2>
+                    <p>- Votre mot de passe est crypté grâce à un système de achage de laravel avant que vos données ne soient enregistrées dans notre base de données</p>
+                    <p>- Toutes les données que vous entrerez dans cette application seront correctement protégées</p>
 
                     <!--div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
