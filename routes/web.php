@@ -12,6 +12,10 @@ use App\Http\Controllers\NoteseafController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Middleware;
 
+use App\Http\Controllers\StudentController;
+
+Route::get('/students', [StudentController::class, 'index']);
+
 //routes pour les vues sécurisées et nommées
 Route::get('/bilan', [BilanController::class, 'afficherBilan'])->middleware('auth')->name('bilan');
 
