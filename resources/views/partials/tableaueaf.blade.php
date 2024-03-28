@@ -47,8 +47,8 @@
         <td>Recettes des APS pour RC</td>
         <td>1</td>
         <td>{{ number_format($a, 0, ',', '.') }}</td>
-        <td>{{ number_format($a, 0, ',', '.') }}</td>
-        <td>{{ number_format($a, 0, ',', '.') }}</td>
+        <td>{{ number_format($b, 0, ',', '.') }}</td>
+        <td>{{ number_format($w, 0, ',', '.') }}</td>
         <td>{{ number_format($a, 0, ',', '.') }}</td>
         <td>{{ number_format($a, 0, ',', '.') }}</td>
         <td>{{ number_format($a, 0, ',', '.') }}</td>
