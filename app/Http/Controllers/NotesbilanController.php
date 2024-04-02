@@ -2949,7 +2949,7 @@ class NotesbilanController extends Controller
         $f10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
 
         // Passer la valeur de 'a' à la vue PDF
-        $pdf = PDF::loadView('Etat_des_Activites_FinancieresPdf', compact('a',
+        $pdf = PDF::loadView('Notes_BilanPdf', compact('a',
         'b',
        'c',
        'd',
@@ -3220,7 +3220,7 @@ class NotesbilanController extends Controller
    $pdf->setPaper('a4', 'landscape');
    
    // Télécharger le PDF avec le nom spécifique et la variable 'a'
-   return $pdf->download('Etat_des_Activites_Financieres.pdf', compact('a',
+   return $pdf->download('Notes_Bilan.pdf', compact('a',
           'b',
           'c',
           'd',

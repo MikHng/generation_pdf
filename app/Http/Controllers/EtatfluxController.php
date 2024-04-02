@@ -447,7 +447,7 @@ class EtatfluxController extends Controller
                // ->orWhereBetween('matricule', [27100, 27999]);
         })->sum('firstname');
 
-        return view('Fonds_Restreints',   compact('a',
+        return view('Etat_Flux_de_Tresorerie',   compact('a',
         'b',
         'c',
         'd',
@@ -496,7 +496,7 @@ class EtatfluxController extends Controller
         'u1',
         'v1',));
     }
-    public function affichefondsPdf()
+    public function afficheretatfluxPdf()
     {
         $a= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $b= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
@@ -548,7 +548,7 @@ class EtatfluxController extends Controller
         $v1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
 
 
-        $pdf = PDF::loadView('Fonds_RestreintsPdf', compact('a',
+        $pdf = PDF::loadView('Etat_Flux_de_TresoreriePdf', compact('a',
         'b',
         'c',
         'd',
@@ -601,7 +601,7 @@ class EtatfluxController extends Controller
 $pdf->setPaper('a4', 'landscape');
 
 // Télécharger le PDF avec le nom spécifique et la variable 'a'
-        return $pdf->download('Fonds_Restreints.pdf', compact('a',
+        return $pdf->download('Etat_Flux_de_Tresorerie.pdf', compact('a',
         'b',
         'c',
         'd',

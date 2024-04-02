@@ -3734,7 +3734,7 @@ class NoteseafController extends Controller
        // $y12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
 
         // Passer la valeur de 'a' à la vue PDF
-        $pdf = PDF::loadView('Etat_des_Activites_FinancieresPdf', compact('a',
+        $pdf = PDF::loadView('Notes_EAFPdf', compact('a',
         'b',
        'c',
        'd',
