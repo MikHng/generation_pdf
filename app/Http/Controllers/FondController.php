@@ -439,6 +439,15 @@ class FondController extends Controller
                // ->orWhereBetween('matricule', [27100, 27999]);
         })->sum('firstname');
 
+        $v1 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
         return view('Fonds_Restreints',   compact('a',
         'b',
         'c',
@@ -485,7 +494,8 @@ class FondController extends Controller
         'r1',
         's1',
         't1',
-        'u1',));
+        'u1',
+        'v1',));
     }
     public function affichefondsPdf()
     {
@@ -536,6 +546,7 @@ class FondController extends Controller
         $s1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $t1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $u1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $v1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
 
         $pdf = PDF::loadView('Fonds_RestreintsPdf', compact('a',
         'b',
@@ -636,7 +647,8 @@ $pdf->setPaper('a4', 'landscape');
         'r1',
         's1',
         't1',
-        'u1'));
+        'u1',
+        'v1'));
 
     }
 

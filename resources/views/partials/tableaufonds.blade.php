@@ -33,24 +33,24 @@
             </tr>
             <tr>
                 <td>Structure 1</td>
-                <td>0</td>
-                <td>784925865</td>
-                <td>8564248452</td>
-                <td>8541245</td>
+                <td>{{ number_format($a, 0, ',', '.') }}</td>
+                <td>{{ number_format($b, 0, ',', '.') }}</td>
+                <td>{{ number_format($c, 0, ',', '.') }}</td>
+                <td>{{ number_format($d, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Structure 2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($e, 0, ',', '.') }}</td>
+                <td>{{ number_format($f, 0, ',', '.') }}</td>
+                <td>{{ number_format($g, 0, ',', '.') }}</td>
+                <td>{{ number_format($h, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Structure 3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($i, 0, ',', '.') }}</td>
+                <td>{{ number_format($j, 0, ',', '.') }}</td>
+                <td>{{ number_format($k, 0, ',', '.') }}</td>
+                <td>{{ number_format($l, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Localité 2 :</td>
@@ -61,17 +61,17 @@
             </tr>
             <tr>
                 <td>Structure 2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($m, 0, ',', '.') }}</td>
+                <td>{{ number_format($n, 0, ',', '.') }}</td>
+                <td>{{ number_format($o, 0, ',', '.') }}</td>
+                <td>{{ number_format($p, 0, ',', '.') }}</td>
             </tr>
             <tr style="background-color:#ffff99">
                 <td>Total </td>
-                <td>0</td>
-                <td>78451254</td>
-                <td>87459865</td>
-                <td>86575444</td>
+                <td>{{ number_format($q, 0, ',', '.') }}</td>
+                <td>{{ number_format($r, 0, ',', '.') }}</td>
+                <td>{{ number_format($s, 0, ',', '.') }}</td>
+                <td>{{ number_format($t, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td><br></td>
@@ -96,24 +96,24 @@
             </tr>
             <tr>
                 <td>Structure 1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($u, 0, ',', '.') }}</td>
+                <td>{{ number_format($v, 0, ',', '.') }}</td>
+                <td>{{ number_format($w, 0, ',', '.') }}</td>
+                <td>{{ number_format($x, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Structure 2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($y, 0, ',', '.') }}</td>
+                <td>{{ number_format($z, 0, ',', '.') }}</td>
+                <td>{{ number_format($a1, 0, ',', '.') }}</td>
+                <td>{{ number_format($b1, 0, ',', '.') }}</td>
             </tr>
             <tr style="background-color:#ffff99">
                 <td>Total</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>{{ number_format($c1, 0, ',', '.') }}</td>
+                <td>{{ number_format($d1, 0, ',', '.') }}</td>
+                <td>{{ number_format($e1, 0, ',', '.') }}</td>
+                <td>{{ number_format($f1, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td><br></td>
@@ -138,24 +138,24 @@
             </tr>
             <tr>
                 <td>Structure 3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($g1, 0, ',', '.') }}</td>
+                <td>{{ number_format($h1, 0, ',', '.') }}</td>
+                <td>{{ number_format($i1, 0, ',', '.') }}</td>
+                <td>{{ number_format($j1, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Structure 4</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>0</td>
+                <td>{{ number_format($k1, 0, ',', '.') }}</td>
+                <td>{{ number_format($l1, 0, ',', '.') }}</td>
+                <td>{{ number_format($m1, 0, ',', '.') }}</td>
+                <td>{{ number_format($n1, 0, ',', '.') }}</td>
             </tr>
             <tr style="background-color:#ffff99">
                 <td>Total</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td>{{ number_format($o1, 0, ',', '.') }}</td>
+                <td>{{ number_format($p1, 0, ',', '.') }}</td>
+                <td>{{ number_format($q1, 0, ',', '.') }}</td>
+                <td>{{ number_format($r1, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td><br></td>
@@ -166,10 +166,10 @@
             </tr>    
             <tr style="background-color:#ffff99">
                 <td>Total Fonds Restreints</td>
-                <td>0</td>
-                <td>85245295</td>
-                <td>7429525</td>
-                <td>8524562</td>
+                <td>{{ number_format($s1, 0, ',', '.') }}</td>
+                <td>{{ number_format($t1, 0, ',', '.') }}</td>
+                <td>{{ number_format($u1, 0, ',', '.') }}</td>
+                <td>{{ number_format($v1, 0, ',', '.') }}</td>
             </tr>  
             </tbody>
 </table>
