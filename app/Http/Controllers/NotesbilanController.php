@@ -2411,6 +2411,42 @@ class NotesbilanController extends Controller
                // ->orWhereBetween('matricule', [27100, 27999]);
         })->sum('firstname');
 
+        $g10 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $h10 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $i10 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $j10 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
         return view('Notes_Bilan', compact(
        'a',
        'b',
@@ -2677,7 +2713,12 @@ class NotesbilanController extends Controller
        'c10',
        'd10',
        'e10',
-       'f10',));
+       'f10',
+       'g10',
+       'h10',
+       'i10',
+       'j10'
+    ));
     }
     public function affichenotebilanPdf()
     {
@@ -2947,6 +2988,10 @@ class NotesbilanController extends Controller
         $d10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
         $e10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
         $f10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
+        $g10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
+        $h10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
+        $i10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
+        $j10= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
 
         // Passer la valeur de 'a' à la vue PDF
         $pdf = PDF::loadView('Notes_BilanPdf', compact('a',
@@ -3214,7 +3259,12 @@ class NotesbilanController extends Controller
        'c10',
        'd10',
        'e10',
-       'f10'))
+       'f10',
+       'g10',
+       'h10',
+       'i10',
+       'j10'
+       ))
        ->setOptions(['defaultFont' => 'sans-serif']);
    
    $pdf->setPaper('a4', 'landscape');
@@ -3485,7 +3535,12 @@ class NotesbilanController extends Controller
           'c10',
           'd10',
           'e10',
-          'f10'));
+          'f10',
+          'g10',
+          'h10',
+          'i10',
+          'j10'
+        ));
 
     }
 /*
