@@ -3038,14 +3038,14 @@ class NoteseafController extends Controller
                // ->orWhereBetween('matricule', [27100, 27999]);
         })->sum('firstname');
 
-        $y12 = Student::where(function ($query) {
+      /*  $y12 = Student::where(function ($query) {
             $query->whereBetween('matricule', [00000, 99999]);
 
            // $query->whereBetween('matricule', [21000, 21999])
                 //->orWhereBetween('matricule', [22000, 22999])
                // ->orWhere('matricule', 26100)
                // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
+        })->sum('firstname'); */
 
 
 
@@ -3387,8 +3387,9 @@ class NoteseafController extends Controller
        'u12',
        'v12',
        'w12',
-       'x12',
-       'y12'));   
+       'x12'
+       //'y12'
+    ));   
     }   
     
     public function afficheeafPdf()
@@ -3730,7 +3731,7 @@ class NoteseafController extends Controller
         $v12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
         $w12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
         $x12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
-        $y12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
+       // $y12= Student::whereBetween('matricule', [00000, 1010101010])->sum('firstname');
 
         // Passer la valeur de 'a' à la vue PDF
         $pdf = PDF::loadView('Etat_des_Activites_FinancieresPdf', compact('a',
@@ -4068,8 +4069,8 @@ class NoteseafController extends Controller
        'u12',
        'v12',
        'w12',
-       'x12',
-       'y12'
+       'x12'
+      // 'y12'
 
     ))
     ->setOptions(['defaultFont' => 'sans-serif']);
@@ -4412,8 +4413,8 @@ return $pdf->download('Etat_des_Activites_Financieres.pdf', compact('a',
        'u12',
        'v12',
        'w12',
-       'x12',
-       'y12'
+       'x12'
+       //'y12'
 
     ));
   
