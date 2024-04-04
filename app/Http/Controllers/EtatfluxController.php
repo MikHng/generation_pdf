@@ -655,6 +655,102 @@ $pdf->setPaper('a4', 'landscape');
 
     public function export() 
     {
-        return Excel::download(new EtatfluxExport, 'Etat_Flux_de_Tresorerie.xlsx');
+        $a= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $b= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $c= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $d= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $e= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $f= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $g= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $h= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $i= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $j= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $k= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $l= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $m= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $n= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $o= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $p= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $q= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $r= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $s= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $t= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $u= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $v= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $w= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $x= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $y= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $z= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $a1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $b1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $c1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $d1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $e1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $f1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $g1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $h1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $i1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $j1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $k1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $l1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $m1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $n1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $o1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $p1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $q1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $r1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $s1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $t1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $u1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $v1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+
+        return Excel::download(new EtatfluxExport($a,
+        $b,
+        $c,
+        $d,
+        $e,
+        $f,
+        $g,
+        $h,
+        $i,
+        $j,
+        $k,
+        $l,
+        $m,
+        $n,
+        $o,
+        $p,
+        $q,
+        $r,
+        $s,
+        $t,
+        $u,
+        $v,
+        $w,
+        $x,
+        $y,
+        $z,
+        $a1,
+        $b1,
+        $c1,
+        $d1,
+        $e1,
+        $f1,
+        $g1,
+        $h1,
+        $i1,
+        $j1,
+        $k1,
+        $l1,
+        $m1,
+        $n1,
+        $o1,
+        $p1,
+        $q1,
+        $r1,
+        $s1,
+        $t1,
+        $u1,
+        $v1), 'Etat_Flux_de_Tresorerie.xlsx');
     }
 }
