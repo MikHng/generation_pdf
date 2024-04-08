@@ -706,6 +706,37 @@
         <td></td>
         <td></td>
       </tr>
+      <tr style="background-color:#ccffcc" >
+        <td>Restreints</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Au 1er Janvier</td>
+        <td>{{ number_format($m8, 0, ',', '.') }}</td>
+        <td>{{ number_format($n8, 0, ',', '.') }}</td>
+      </tr>
+      <tr>
+        <td>Gain/perte au titre de l’exercice</td>
+        <td>{{ number_format($o8, 0, ',', '.') }}</td>
+        <td>{{ number_format($p8, 0, ',', '.') }}</td>
+      </tr>
+      
+      <tr>
+        <td>Transfert net à partir des fonds non Restreints</td>
+        <td>{{ number_format($q8, 0, ',', '.') }}</td>
+        <td>{{ number_format($r8, 0, ',', '.') }}</td>
+      </tr>
+      <tr style="background-color:#ffff99">
+        <td>Au 31 Décembre</td>
+        <td>{{ number_format($s8, 0, ',', '.') }}</td>
+        <td>{{ number_format($t8, 0, ',', '.') }}</td>
+      </tr>
+      <tr>
+        <td><br></td>
+        <td></td>
+        <td></td>
+      </tr>
       <tr style="background-color:#ffff99">
         <td>Total Fonds Accumulés</td>
         <td>{{ number_format($u8, 0, ',', '.') }}</td>
