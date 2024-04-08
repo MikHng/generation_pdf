@@ -103,6 +103,26 @@
         <td>{{ number_format($b2, 0, ',', '.') }}</td>
       </tr>     
       <tr>
+        <td>Don. from Abroad SOS-SE</td>
+        <td>{{ number_format($c2, 0, ',', '.') }}</td>
+        <td>{{ number_format($d2, 0, ',', '.') }}</td>
+        <td>{{ number_format($e2, 0, ',', '.') }}</td>
+        <td>{{ number_format($f2, 0, ',', '.') }}</td>
+        <td>{{ number_format($g2, 0, ',', '.') }}</td>
+        <td>{{ number_format($h2, 0, ',', '.') }}</td>
+      </tr>
+
+      <tr>
+        <td>  Don. grant projects SOS-LU</td>
+        <td>{{ number_format($c2, 0, ',', '.') }}</td>
+        <td>{{ number_format($d2, 0, ',', '.') }}</td>
+        <td>{{ number_format($e2, 0, ',', '.') }}</td>
+        <td>{{ number_format($f2, 0, ',', '.') }}</td>
+        <td>{{ number_format($g2, 0, ',', '.') }}</td>
+        <td>{{ number_format($h2, 0, ',', '.') }}</td>
+      </tr>
+
+      <tr>
         <td>...</td>
         <td>{{ number_format($c2, 0, ',', '.') }}</td>
         <td>{{ number_format($d2, 0, ',', '.') }}</td>
@@ -111,6 +131,7 @@
         <td>{{ number_format($g2, 0, ',', '.') }}</td>
         <td>{{ number_format($h2, 0, ',', '.') }}</td>
       </tr>
+
       <tr style="background-color:#ffff99">
         <td>Total</td>
         <td>{{ number_format($i2, 0, ',', '.') }}</td>
@@ -612,7 +633,57 @@
         <td>{{ number_format($b11, 0, ',', '.') }}</td>
         <td>{{ number_format($c11, 0, ',', '.') }}</td>
         <td>{{ number_format($d11, 0, ',', '.') }}</td>
-      </tr>  
+      </tr>
+      
+      <tr style="background-color:#c0c0c0">
+        <td>Localité 4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Assistance Familiale à Long Terme</td>
+        <td>{{ number_format($g10, 0, ',', '.') }}</td>
+        <td>({{ number_format($h10, 0, ',', '.') }})</td>
+        <td>({{ number_format($i10, 0, ',', '.') }})</td>
+        <td>({{ number_format($j10, 0, ',', '.') }})</td>
+      </tr>
+      <tr>
+        <td>Programmes d'Education</td>
+        <td>({{ number_format($k10, 0, ',', '.') }})</td>
+        <td>({{ number_format($l10, 0, ',', '.') }})</td>
+        <td>({{ number_format($m10, 0, ',', '.') }})</td>
+        <td>({{ number_format($n10, 0, ',', '.') }})</td>
+      </tr>
+      <tr>
+        <td>PRF</td>
+        <td>({{ number_format($o10, 0, ',', '.') }})</td>
+        <td>({{ number_format($p10, 0, ',', '.') }})</td>
+        <td>({{ number_format($q10, 0, ',', '.') }})</td>
+        <td>({{ number_format($r10, 0, ',', '.') }})</td>
+      </tr>      
+      <tr style="background-color:#ccffcc" >
+        <td>Total Localité 4</td>
+        <td>({{ number_format($s10, 0, ',', '.') }})</td>
+        <td>({{ number_format($t10, 0, ',', '.') }})</td>
+        <td>({{ number_format($u10, 0, ',', '.') }})</td>
+        <td>({{ number_format($v10, 0, ',', '.') }})</td>
+      </tr>
+      <tr>
+        <td>Des Fonds Restreints</td>
+        <td>{{ number_format($w10, 0, ',', '.') }}</td>
+        <td>{{ number_format($x10, 0, ',', '.') }}</td>
+        <td>{{ number_format($y10, 0, ',', '.') }}</td>
+        <td>{{ number_format($z10, 0, ',', '.') }}</td>
+      </tr>
+      <tr>
+      <td>Des Fonds non Restreints</td>
+        <td>{{ number_format($a11, 0, ',', '.') }}</td>
+        <td>{{ number_format($b11, 0, ',', '.') }}</td>
+        <td>{{ number_format($c11, 0, ',', '.') }}</td>
+        <td>{{ number_format($d11, 0, ',', '.') }}</td>
+      </tr>
       <tr style="background-color:#ffff99">
         <td>Total des Dépenses</td>
         <td>({{ number_format($e11, 0, ',', '.') }})</td>
