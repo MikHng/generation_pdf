@@ -214,7 +214,7 @@
         <td>{{ number_format($z2, 0, ',', '.') }}</td>
       </tr>      
       <tr style="background-color:#ccffcc" >
-        <td>Excédent/déficit net sur les activités opérationnelles</td>
+        <td>Recettes/Dépenses des activités financières</td>
         <td>11</td>
         <td>{{ number_format($a3, 0, ',', '.') }}</td>
         <td>{{ number_format($b3, 0, ',', '.') }}</td>

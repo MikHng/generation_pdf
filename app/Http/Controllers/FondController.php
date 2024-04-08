@@ -448,6 +448,114 @@ class FondController extends Controller
                // ->orWhereBetween('matricule', [27100, 27999]);
         })->sum('firstname');
 
+        $w1 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $x1 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $y1 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $z1 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $a2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $b2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $c2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $d2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+        
+        $e2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $f2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $g2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
+        $h2 = Student::where(function ($query) {
+            $query->whereBetween('matricule', [00000, 99999]);
+
+           // $query->whereBetween('matricule', [21000, 21999])
+                //->orWhereBetween('matricule', [22000, 22999])
+               // ->orWhere('matricule', 26100)
+               // ->orWhereBetween('matricule', [27100, 27999]);
+        })->sum('firstname');
+
         return view('Fonds_Restreints',   compact('a',
         'b',
         'c',
@@ -495,7 +603,19 @@ class FondController extends Controller
         's1',
         't1',
         'u1',
-        'v1',));
+        'v1',
+        'w1',
+        'x1',
+        'y1',
+        'z1',
+        'a2',
+        'b2',
+        'c2',
+        'd2',
+        'e2',
+        'f2',
+        'g2',
+        'h2'));
     }
     public function affichefondsPdf()
     {
@@ -547,6 +667,18 @@ class FondController extends Controller
         $t1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $u1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $v1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $w1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $x1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $y1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $z1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $a2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $b2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $c2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $d2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $e2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $f2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $g2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $h2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
 
         $pdf = PDF::loadView('Fonds_RestreintsPdf', compact('a',
         'b',
@@ -595,7 +727,19 @@ class FondController extends Controller
         's1',
         't1',
         'u1',
-        'v1'))
+        'v1',
+        'w1',
+        'x1',
+        'y1',
+        'z1',
+        'a2',
+        'b2',
+        'c2',
+        'd2',
+        'e2',
+        'f2',
+        'g2',
+        'h2'))
         ->setOptions(['defaultFont' => 'sans-serif']);
 
 $pdf->setPaper('a4', 'landscape');
@@ -648,7 +792,20 @@ $pdf->setPaper('a4', 'landscape');
         's1',
         't1',
         'u1',
-        'v1'));
+        'v1',
+        'w1',
+        'x1',
+        'y1',
+        'z1',
+        'a2',
+        'b2',
+        'c2',
+        'd2',
+        'e2',
+        'f2',
+        'g2',
+        'h2'
+        ));
 
     }
 
@@ -702,6 +859,18 @@ $pdf->setPaper('a4', 'landscape');
         $t1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $u1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $v1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $w1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $x1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $y1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $z1= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $a2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $b2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $c2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $d2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $e2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $f2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $g2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $h2= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
 
         return Excel::download(new FondExport(         $a,
         $b,
@@ -754,7 +923,16 @@ $pdf->setPaper('a4', 'landscape');
         $w1,
         $x1,
         $y1,
-        $z1
+        $z1,
+        $a2,
+        $b2,
+        $c2,
+        $d2,
+        $e2,
+        $f2,
+        $g2,
+        $h2
+
         ), 'Fonds_Restreints.xlsx');
     }
 }

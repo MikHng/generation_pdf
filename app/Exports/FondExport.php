@@ -68,6 +68,15 @@ class FondExport implements FromView, WithStyles
     protected $x1;
     protected $y1;
     protected $z1;
+    protected $a2;
+    protected $b2;
+    protected $c2;
+    protected $d2;
+    protected $e2;
+    protected $f2;
+    protected $g2;
+    protected $h2;
+    
     public function __construct(         $a,
     $b,
     $c,
@@ -119,7 +128,16 @@ class FondExport implements FromView, WithStyles
     $w1,
     $x1,
     $y1,
-    $z1,)
+    $z1,
+    $a2,
+    $b2,
+    $c2,
+    $d2,
+    $e2,
+    $f2,
+    $g2,
+    $h2
+    )
     {
         $this-> a = $a;
         $this-> b = $b;
@@ -169,10 +187,18 @@ class FondExport implements FromView, WithStyles
         $this-> t1 = $t1;
         $this-> u1 = $u1;
         $this-> v1 = $v1;
-        $this-> w1 = $w1;
-        $this-> x1 = $x1;
-        $this-> y1 = $y1;
-        $this-> z1 = $z1;
+        $this-> w1 =  $w1;
+        $this-> x1 =  $x1;
+        $this-> y1 =  $y1;
+        $this-> z1 =  $z1;
+        $this-> a2 =  $a2;
+        $this-> b2 =  $b2;
+        $this-> c2 =  $c2;
+        $this-> d2 =  $d2;
+        $this-> e2 =  $e2;
+        $this-> f2 =  $f2;
+        $this-> g2 =  $g2;
+        $this-> h2 =  $h2;
     }
 
     public function view(): View
@@ -229,7 +255,16 @@ class FondExport implements FromView, WithStyles
                     'w1' => $this -> w1 ,
                     'x1' => $this -> x1 ,
                     'y1' => $this -> y1 ,
-                    'z1' => $this -> z1 ]);
+                    'z1' => $this -> z1 ,
+                    'a2' => $this -> a2 ,
+                    'b2' => $this -> b2 ,
+                    'c2' => $this -> c2 ,
+                    'd2' => $this -> d2 ,
+                    'e2' => $this -> e2 ,
+                    'f2' => $this -> f2 ,
+                    'g2' => $this -> g2 ,
+                    'h2' => $this -> h2 ,
+                     ]);
     
     }
 

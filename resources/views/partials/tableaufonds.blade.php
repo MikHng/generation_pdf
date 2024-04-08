@@ -81,11 +81,39 @@
                 <td></td>
             </tr>      
             <tr style="background-color:#ccffcc" >
-                <td>KD e.V.</td>
+                <td>LU</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
+            </tr>
+            <tr>
+                <td>Localité 1 :</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Structure 1</td>
+                <td>{{ number_format($w1, 0, ',', '.') }}</td>
+                <td>{{ number_format($x1, 0, ',', '.') }}</td>
+                <td>{{ number_format($y1, 0, ',', '.') }}</td>
+                <td>{{ number_format($z1, 0, ',', '.') }}</td>
+            </tr>
+            <tr>
+                <td>Structure 2</td>
+                <td>{{ number_format($a2, 0, ',', '.') }}</td>
+                <td>{{ number_format($b2, 0, ',', '.') }}</td>
+                <td>{{ number_format($c2, 0, ',', '.') }}</td>
+                <td>{{ number_format($d2, 0, ',', '.') }}</td>
+            </tr>
+            <tr>
+                <td>Structure 3</td>
+                <td>{{ number_format($e2, 0, ',', '.') }}</td>
+                <td>{{ number_format($f2, 0, ',', '.') }}</td>
+                <td>{{ number_format($g2, 0, ',', '.') }}</td>
+                <td>{{ number_format($h2, 0, ',', '.') }}</td>
             </tr>
             <tr>
                 <td>Localité 2 :</td>
