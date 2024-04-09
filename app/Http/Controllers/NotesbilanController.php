@@ -17,481 +17,121 @@ class NotesbilanController extends Controller
 {
     public function affichenotebilan()
     {
-        $a = Student::where('matricule', 2100)->value('mobile');
-
-        //$a = Student::where(function ($query) {
-          //  $query->whereBetween('matricule', 02100);
-           // ->orWhere('matricule', 26100);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-       // })->sum('mobile');
-
+        //c11
+         $a = Student::where('matricule', 2100)->value('mobile');
+        //d11
          $b=0;
-        //$b = Student::where(function ($query) {
-           // $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-       // })->sum('firstname');
-
-       $c=   $a + $b;
-      /*  $c = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname'); */
-
-        $d=0;
-       /* $d = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $e= Student::where('matricule', 2100)->value('firstname');
-        /*$e = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //e11
+         $c=   $a + $b;
+        //f11
+         $d= Student::where('matricule', 202100)->value('mobile') ;
+        //c12       
+         $e= Student::where('matricule', 2100)->value('firstname');
+        //d12
         $f=0;
-        /*$f = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //e12
         $g=$e+$f;
-        /*$g = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $h=0;
-       /* $h = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //f12
+        $h= Student::where('matricule', 202100)->value('firstname');
+        //c13
         $i =  $a+ $e;
-        /*$i = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //d13
         $j=$b+$f;
-       /* $j = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //e13
         $k= $c+$g;
-       /* $k = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $l= 0;
-
-       /* $l = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $m =Student::where('matricule', 2130)->value('email')-Student::where('matricule', 2130)->value('notes');
-        
-       /* $m = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //f13
+        $l= $d + $h;
+        //c16
+        $m =Student::where('matricule', 2130)->value('email') - Student::where('matricule', 2130)->value('notes');
+        //d16
         $n= 0;
+        //e16
         $o = $m+$n;
-
-        $p = 0;
+        //f16
+        $p = Student::where('matricule', 202130)->value('email') - Student::where('matricule', 202130)->value('notes');
+        //c17
         $q =Student::where('matricule', 2130)->value('notes');
-        /*$q = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //d17
         $r =0;
-       /* $r = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
+        //e17
         $s = $q+$r;
-       /* $s = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $t=0;
-        /*$t = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');*/
-
-        $u = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $v = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $w = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $x = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $y = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $z = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $a1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $b1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $c1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $d1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $e1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $f1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $g1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $h1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $i1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $j1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $k1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $l1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $m1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $n1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $o1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $p1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $q1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $r1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $s1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $t1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $u1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $v1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $w1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $x1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $y1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $z1 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
-        $a2 = Student::where(function ($query) {
-            $query->whereBetween('matricule', [00000, 99999]);
-
-           // $query->whereBetween('matricule', [21000, 21999])
-                //->orWhereBetween('matricule', [22000, 22999])
-               // ->orWhere('matricule', 26100)
-               // ->orWhereBetween('matricule', [27100, 27999]);
-        })->sum('firstname');
-
+        //f17
+        $t=Student::where('matricule', 202130)->value('notes');
+        //c18
+        $u =0;
+        //d18
+        $v = 0;
+        //e18
+        $w = $u + $v ;
+        //f18
+        $x = 0;
+        //c19
+        $y = 0;
+        //d19
+        $z = 0;
+        //e19
+        $a1 = $y+$z;
+        //f19
+        $b1 = 0;
+        //c20
+        $c1 = $m + $q - ($u + $y );
+        //d20
+        $d1 = $n + $r - ($v + $z );
+        //e20
+        $e1 = $o + $s - ($w + $a1 );
+        //f20
+        $f1 = $p + $t - $x - $b1;
+
+        //Pas retrouver dans la vu dans la vue
+         $g1 =0 ;
+        $h1 = 0;
+
+        $i1 = 0;
+
+        $j1 = 0;
+
+        //fin Pas retrouver dans la vu dans la vue
+
+        //c23
+        $k1 = 0;
+        //d23
+        $l1 = 0;
+        //e23
+        $m1 = 0;
+        //f23
+        $n1 = 0;
+        //c24
+        $o1 = $i - $c1;
+        //d24
+        $p1 = $j - $d1;
+        //e24
+        $q1 = $k - $e1;
+        //f24
+        $r1 = $l-$f1;
+        //c33
+        $s1 = Student::where('matricule', 1110)->value('mobile');
+        //d33
+        $t1 = Student::where('matricule', 1210)->value('mobile') + Student::where('matricule', 1220)->value('mobile') + Student::where('matricule', 1240)->value('mobile');
+        //e33
+        $u1 = Student::where('matricule', 1310)->value('mobile')-Student::where('matricule',1310)->value('firstname')+ Student::where('matricule', 1340)->value('mobile');
+        //f33
+        $v1 = (Student::where('matricule', 1510)->value('mobile')+Student::where('matricule', 1511)->value('mobile')+Student::where('matricule', 1512)->value('mobile')+Student::where('matricule', 1513)->value('mobile')+Student::where('matricule', 1540)->value('mobile'))-(Student::where('matricule', 1510)->value('firstname')+Student::where('matricule', 1511)->value('firstname')+Student::where('matricule', 1513)->value('firstname'));
+        //g33
+        $w1 = Student::where('matricule', 1410)->value('mobile')+Student::where('matricule', 1440)->value('mobile')-Student::where('matricule', 1410)->value('firstname');
+        //h33 sheet1(3)
+        $x1 = (Student::where('matricule',101699)->value('mobile')) - (Student::where('matricule',101699)->value('firstname'));
+        //i33
+        $y1 = $s1+$t1+$u1+$v1+$w1+$x1;
+        //j33
+        $z1 = Student::where('matricule', 201110)->value('mobile')+
+        Student::where('matricule', 201210)->value('mobile') + Student::where('matricule', 201220)->value('mobile') + Student::where('matricule', 201240)->value('mobile')+
+        Student::where('matricule', 201310)->value('mobile')-Student::where('matricule',201310)->value('firstname')+ Student::where('matricule', 201340)->value('mobile')+
+        (Student::where('matricule', 201510)->value('mobile')+Student::where('matricule', 201511)->value('mobile')+Student::where('matricule', 201512)->value('mobile')+Student::where('matricule', 201513)->value('mobile')+Student::where('matricule', 201540)->value('mobile'))-(Student::where('matricule', 201510)->value('firstname')+Student::where('matricule', 201511)->value('firstname')+Student::where('matricule', 201513)->value('firstname'))+
+        Student::where('matricule', 201410)->value('mobile')+Student::where('matricule', 201440)->value('mobile')-Student::where('matricule', 201410)->value('firstname')+
+        (Student::where('matricule',301699)->value('mobile')) - (Student::where('matricule',301699)->value('firstname'));
+        //c34
+        $a2 = 0;
+        //
         $b2 = Student::where(function ($query) {
             $query->whereBetween('matricule', [00000, 99999]);
 
@@ -2720,7 +2360,8 @@ class NotesbilanController extends Controller
     }
     public function affichenotebilanPdf()
     {
-        $a= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
+        $a = Student::where('matricule', 2100)->value('mobile');
+
         $b= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $c= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
         $d= Student::whereBetween('matricule', [00000, 99999])->sum('firstname');
